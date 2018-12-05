@@ -1,0 +1,161 @@
+/*
+CONNER KELTY - TYLER JOHNSTON - VENANCIO DA SILVA
+Dec 1st
+CSC 390
+Project 5
+styleIndex.css
+*/
+
+
+
+* {
+  font-family: "HelveticaNeue-Light";
+}
+
+
+div.center {
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-family: "Helvetica";
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  color: black;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 19px;
+  text-align: center;
+  color: #591F00;
+}
+
+h4.p2actionsText {
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+
+input {
+  text-align: center;
+  font-size: 26px;
+  margin: 15px;
+}
+
+input.p2b {
+  text-align: center;
+  font-size: 26px;
+  margin: 15px;
+  width: 90px;
+}
+
+button.p2b {
+  background-color: lightgray;
+  font-size: 20px;
+  font-size-adjust: auto;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  border-color: #178aff;
+  border-radius: 4px;
+}
+
+table {
+  font-size: 20px;
+  text-align: center;
+}
+
+a.p2Links {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-family: "Helvetica";
+}
+
+button.p2Buttons {
+  background-color: lightgray;
+  /* width: 10px; */
+  padding: 20px;
+  margin: 30px;
+}
+
+h1.p2h1 {
+  /* margin-bottom: 5%; */
+  text-align: center;
+  color: #178aff;
+  /* position: absolute;
+  top: 10px;
+  left:0px;
+  right:0px; */
+}
+
+button.p2cButton {
+  background-color: #6ba9e8;
+  font-size: 18px;
+  width: 200px;
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #fff500;
+  border-radius: 8px;
+  position: absolute;
+
+}
+
+#backButtons {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-color: #591F00;
+  border-radius: 3px;
+}
+
+#p2actionButtons {
+  background-color: lightgray;
+  font-size: 24px;
+  width: 20%;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #178aff;
+  border-radius: 4px;
+}
+
+#p4AddButton {
+  background-color: lightgray;
+  font-size: 24px;
+  width: 150;
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+  border-color: #178aff;
+  border-radius: 4px;
+}
+
+#showAgeDIV {
+  display: none;
+}
+
+div h4 {
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+-- The two tables for "The Clock Game"
+CREATE TABLE `game_history` (
+  `game_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `player_name` varchar(64) NOT NULL,
+  `result` enum('W','L') NOT NULL,
+  `prize` varchar(128) NOT NULL,
+  `prize_price` int(10) unsigned NOT NULL,
+  `guesses_taken` int(10) unsigned NOT NULL,
+  `seconds_taken` int(10) unsigned NOT NULL,
+  `date_played` datetime NOT NULL,
+  PRIMARY KEY (`game_id`));
+
+CREATE TABLE `prize` (
+  `prize_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(64) NOT NULL,
+  `description` varchar(128) NOT NULL,
+  `min_price` int(10) unsigned NOT NULL,
+  `max_price` int(10) unsigned NOT NULL,
+  `image_url` varchar(256) NOT NULL,
+  PRIMARY KEY (`prize_id`));
